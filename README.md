@@ -26,12 +26,12 @@ Smart Replenishment uses explainable rules from the project specification. When 
 
 | Member | Primary focus |
 |---|---|
-| TV1 | Backend, database, authentication/RBAC, inventory integrity, replenishment logic |
-| TV2 | Frontend/UI, API integration, dashboard, Smart Replenishment UI |
-| TV3 | QA, CI/DevOps, backup/restore, testing, documentation and deployment |
+| TV1 — Nguyễn Quốc Thịnh (`nquocthinh06`) | **Confirmed:** BE lead — database/migrations, authentication/RBAC, API, inventory transaction integrity, audit log, replenishment logic |
+| TV2 — not decided | Frontend/UI is a **proposed** role only; wait for member confirmation |
+| TV3 — not decided | QA/DevOps/CI, backup/restore and deployment are **proposed** responsibilities only; wait for member confirmation |
 | All | Architecture/ERD decisions, PR reviews, end-to-end testing and demo |
 
-Replace TV1/TV2/TV3 with the actual team members and assign GitHub issues once their usernames are known.
+Only TV1's BE lead role is confirmed. Do not treat the proposed TV2/TV3 assignments as final until those members choose their roles. Update task owners and GitHub assignees after the team agrees.
 
 ## Getting started
 
