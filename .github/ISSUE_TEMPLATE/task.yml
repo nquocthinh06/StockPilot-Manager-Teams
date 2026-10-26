@@ -1,0 +1,48 @@
+name: Task
+description: Plan or implement a StockPilot work item
+title: "[SP-###] "
+labels: []
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: What outcome should this task deliver?
+      placeholder: Describe the expected result.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: List work included in this issue.
+      placeholder: |
+        - [ ] Work item 1
+        - [ ] Work item 2
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Observable conditions for marking the task done.
+      placeholder: |
+        - [ ] Criterion 1
+        - [ ] Criterion 2
+    validations:
+      required: true
+  - type: input
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: Other SP-### IDs or issue numbers this depends on.
+  - type: textarea
+    id: testing
+    attributes:
+      label: Test plan
+      description: How will this change be verified?
+  - type: textarea
+    id: docs
+    attributes:
+      label: Documentation impact
+      description: Documentation or user instructions that need updating.
